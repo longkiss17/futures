@@ -1,0 +1,542 @@
+{
+  "categoryList": [
+    { "key": 1, "sortNo": 1, "label": "점검", "checked": true },
+    { "key": 2, "sortNo": 2, "label": "서버장애", "checked": true },
+    { "key": 3, "sortNo": 3, "label": "이벤트", "checked": true },
+    { "key": 4, "sortNo": 4, "label": "캐시샵", "checked": true },
+    { "key": 5, "sortNo": 5, "label": "라이브이슈", "checked": true },
+    { "key": 6, "sortNo": 6, "label": "업무", "checked": true },
+    { "key": 7, "sortNo": 7, "label": "휴가", "checked": true }
+  ],
+  "statusList": [
+    { "key": 1, "label": "미확인", "checked": true },
+    { "key": 2, "label": "확인 중", "checked": true }
+  ],
+  "viewWeekList": [
+    { "key": 1, "label": "1주", "active": false },
+    { "key": 2, "label": "2주", "active": false },
+    { "key": 3, "label": "3주", "active": true },
+    { "key": 4, "label": "4주", "active": false },
+    { "key": 8, "label": "8주", "active": false }
+  ],
+
+  "sortList": [
+    { "key": "category", "label": "카테고리", "checked": true },
+    { "key": "status", "label": "상태", "checked": true },
+    { "key": "start", "label": "시작일", "checked": true },
+    { "key": "custom", "label": "사용자 지정", "checked": true }
+  ],
+  "issueList": [
+    {
+      "issueID": 1,
+      "title": "버닝월드",
+      "category": 3,
+      "status": 1,
+      "start": "2023-06-15 10:00:00",
+      "end": "2023-08-31 00:00:00"
+    },
+    {
+      "issueID": 2,
+      "title": "이덴티스크의 선물",
+      "category": 3,
+      "status": 2,
+      "start": "2023-06-15 10:00:00",
+      "end": "2023-08-30 00:00:00"
+    },
+    {
+      "issueID": 3,
+      "title": "본섭 ver.381 마이너버전 (2) 패치",
+      "category": 1,
+      "status": 1,
+      "start": "2023-09-01 07:00:00",
+      "end": "2023-09-01 09:00:00"
+    },
+    {
+      "issueID": 5,
+      "title": "하이퍼 버닝",
+      "category": 3,
+      "status": 2,
+      "start": "2023-06-15 10:00:00",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 7,
+      "title": "뉴 에이지 제로백 (NEW AGE ZERO100)",
+      "category": 3,
+      "status": 1,
+      "start": "2023-07-13 10:00:00",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 9,
+      "title": "코코넛 스매시 챌린지",
+      "category": 3,
+      "status": 1,
+      "start": "2023-07-13 10:00:00",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 10,
+      "title": "Start with NEW AGE - 6차 전직 프로모션",
+      "category": 4,
+      "status": 1,
+      "start": "2023-07-13 10:00:00",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 11,
+      "title": "버닝월드 리프",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-31 08:00:00",
+      "end": "2023-09-13"
+    },
+    {
+      "issueID": 12,
+      "title": "블레어 살롱 헤어 쿠폰",
+      "category": 4,
+      "status": 2,
+      "start": "2023-07-27 10:00:00",
+      "end": "2023-09-13"
+    },
+    {
+      "issueID": 13,
+      "title": "루나 크리스탈 업데이트",
+      "category": 4,
+      "status": 1,
+      "start": "2023-07-27 10:00:00",
+      "end": "2023-09-06"
+    },
+    {
+      "issueID": 14,
+      "title": "위습의 원더베리 업데이트",
+      "category": 4,
+      "status": 1,
+      "start": "2023-07-27 10:00:00",
+      "end": "2023-09-06"
+    },
+    {
+      "issueID": 15,
+      "title": "프리미엄 헤어/성형 쿠폰",
+      "category": 4,
+      "status": 1,
+      "start": "2023-08-03",
+      "end": "2023-09-13"
+    },
+    {
+      "issueID": 16,
+      "title": "2023년 여름 프리미엄PC방 보상3 2차",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-04",
+      "end": "2023-09-21"
+    },
+    {
+      "issueID": 17,
+      "title": "로얄스타일 업데이트",
+      "category": 4,
+      "status": 1,
+      "start": "2023-08-10 10:00:00",
+      "end": "2023-09-13"
+    },
+    {
+      "issueID": 18,
+      "title": "마스터피스 업데이트",
+      "category": 4,
+      "status": 1,
+      "start": "2023-08-10 10:00:00",
+      "end": "2023-09-13"
+    },
+    {
+      "issueID": 19,
+      "title": "이덴티스크 축제",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-10 10:00:00",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 20,
+      "title": "이덴티스크 헌팅 어드벤처",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-10 10:00:00",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 21,
+      "title": "이덴티스크의 식량창고",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-10 10:00:00",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 22,
+      "title": "햇살과 바람의 춤",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-10 10:00:00",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 23,
+      "title": "테스트서버 ver.1160",
+      "category": 5,
+      "status": 1,
+      "start": "2023-08-24",
+      "end": "2023-08-30"
+    },
+    {
+      "issueID": 24,
+      "title": "썬데이 메이플 - special week",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-27",
+      "end": "2023-08-27"
+    },
+    {
+      "issueID": 25,
+      "title": "본섭 ver.381 메이저 패치",
+      "category": 1,
+      "status": 1,
+      "start": "2023-08-31",
+      "end": "2023-08-31 10:00:00"
+    },
+    {
+      "issueID": 26,
+      "title": "Live Value 삭제 ID = 422",
+      "category": 5,
+      "status": 1,
+      "start": "2023-08-31 09:20:00",
+      "end": "2023-08-31 09:20:00"
+    },
+    {
+      "issueID": 27,
+      "title": "Live Value 생성 ID = 368",
+      "category": 5,
+      "status": 1,
+      "start": "2023-08-31 07:49:00",
+      "end": "2023-08-31 07:49:00"
+    },
+    {
+      "issueID": 28,
+      "title": "Live Value 생성 ID = 406",
+      "category": 5,
+      "status": 1,
+      "start": "2023-08-31 11:20:00",
+      "end": "2023-08-31 11:20:00"
+    },
+    {
+      "issueID": 29,
+      "title": "Live Value 생성 ID = 422",
+      "category": 5,
+      "status": 1,
+      "start": "2023-08-31 08:12:00",
+      "end": "2023-08-31 08:12:00"
+    },
+    {
+      "issueID": 30,
+      "title": "Live Value 생성 ID = 403",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-02 14:01:00",
+      "end": "2023-09-02 14:01:00"
+    },
+    {
+      "issueID": 31,
+      "title": "페어리 브로의 황금 마차",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-31 10:00:00",
+      "end": "2023-12-20"
+    },
+    {
+      "issueID": 33,
+      "title": "뉴 네임 옥션",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-31 10:00:00",
+      "end": "2023-09-20"
+    },
+    {
+      "issueID": 34,
+      "title": "츄츄 스페셜 슬러시",
+      "category": 3,
+      "status": 1,
+      "start": "2023-08-31 10:00:00",
+      "end": "2023-09-20"
+    },
+    {
+      "issueID": 35,
+      "title": "[본섭] [Control] 서버 밸류 설정",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-03 01:20:00",
+      "end": "2023-09-03 01:20:00"
+    },
+    {
+      "issueID": 36,
+      "title": "[본섭] [Control] 서버 밸류 설정",
+      "category": 5,
+      "status": 2,
+      "start": "2023-09-03 02:46:00",
+      "end": "2023-09-03 02:46:00"
+    },
+    {
+      "issueID": 37,
+      "title": "이덴티스크 입장불가/판매종료",
+      "category": 3,
+      "status": 2,
+      "start": "2023-09-03 23:59:00",
+      "end": "2023-09-03 23:59:00"
+    },
+    {
+      "issueID": 38,
+      "title": "본섭 ver.382 마이너버전(2) 패치",
+      "category": 1,
+      "status": 1,
+      "start": "2023-09-22 07:30:00",
+      "end": "2023-09-22 09:00:00"
+    },
+    {
+      "issueID": 39,
+      "title": "테스트서버 ver.1161",
+      "category": 5,
+      "status": 2,
+      "start": "2023-09-14",
+      "end": "2023-09-20"
+    },
+    {
+      "issueID": 40,
+      "title": "KT 코넷 라우터 장비 이슈",
+      "category": 2,
+      "status": 1,
+      "start": "2023-09-20 16:40:00",
+      "end": "2023-09-20 16:40:00"
+    },
+    {
+      "issueID": 41,
+      "title": "드롭 더 도토리 (펀치킹)",
+      "category": 3,
+      "status": 1,
+      "start": "2023-09-21 10:00:00",
+      "end": "2023-10-25"
+    },
+    {
+      "issueID": 42,
+      "title": "추석 PC방 3",
+      "category": 3,
+      "status": 2,
+      "start": "2023-09-21 10:00:00",
+      "end": "2023-11-09"
+    },
+    {
+      "issueID": 43,
+      "title": "미나르 가을 소풍 (메인3)",
+      "category": 3,
+      "status": 1,
+      "start": "2023-09-21 10:00:00",
+      "end": "2023-10-25"
+    },
+    {
+      "issueID": 44,
+      "title": "포레스트 블래스트",
+      "category": 3,
+      "status": 1,
+      "start": "2023-09-21 10:00:00",
+      "end": "2023-10-25"
+    },
+    {
+      "issueID": 45,
+      "title": "하프링 보물찾기",
+      "category": 3,
+      "status": 1,
+      "start": "2023-09-21 10:00:00",
+      "end": "2023-10-25"
+    },
+    {
+      "issueID": 46,
+      "title": "2023 추석 패키지 프로모션",
+      "category": 4,
+      "status": 1,
+      "start": "2023-09-21",
+      "end": "2023-10-18"
+    },
+    {
+      "issueID": 47,
+      "title": "로얄스타일 업데이트",
+      "category": 4,
+      "status": 1,
+      "start": "2023-09-21",
+      "end": "2023-10-18"
+    },
+    {
+      "issueID": 48,
+      "title": "마스터피스 업데이트",
+      "category": 4,
+      "status": 2,
+      "start": "2023-09-21",
+      "end": "2023-10-18"
+    },
+    {
+      "issueID": 49,
+      "title": "하프링 단풍놀이 (필드혜택)",
+      "category": 3,
+      "status": 1,
+      "start": "2023-09-21",
+      "end": "2023-10-11"
+    },
+    {
+      "issueID": 50,
+      "title": "[본섭] [Control] 서버 밸류 설정",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-21 17:29:00",
+      "end": "2023-09-21 17:29:00"
+    },
+    {
+      "issueID": 51,
+      "title": "[본섭] [Control] 서버 밸류 설정",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-21 18:24:00",
+      "end": "2023-09-21 18:24:00"
+    },
+    {
+      "issueID": 52,
+      "title": "본섭 ver.382 메이저 패치",
+      "category": 1,
+      "status": 1,
+      "start": "2023-09-21 04:00:00",
+      "end": "2023-09-21 10:00:00"
+    },
+    {
+      "issueID": 53,
+      "title": "컬러링 프리즘 (의상색변환) 판매시작",
+      "category": 4,
+      "status": 1,
+      "start": "2023-09-21 10:00:00",
+      "end": "2023-09-21 10:00:00"
+    },
+    {
+      "issueID": 54,
+      "title": "Live Value 삭제 ID = 31",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-21 08:04:00",
+      "end": "2023-09-21 08:04:00"
+    },
+    {
+      "issueID": 55,
+      "title": "Live Value 삭제 ID = 368",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-21 08:04:00",
+      "end": "2023-09-21 08:04:00"
+    },
+    {
+      "issueID": 56,
+      "title": "Live Value 삭제 ID = 406",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-21 08:09:00",
+      "end": "2023-09-21 08:09:00"
+    },
+    {
+      "issueID": 57,
+      "title": "Live Value 생성 ID = 425",
+      "category": 5,
+      "status": 2,
+      "start": "\"2023-09-21 11:32:00",
+      "end": "\""
+    },
+    {
+      "issueID": 58,
+      "title": "Live Value 생성 ID = 431",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-21 12:09:00",
+      "end": "2023-09-21 12:09:00"
+    },
+    {
+      "issueID": 59,
+      "title": "Live Value 생성 ID = 433",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-21 08:10:00",
+      "end": "2023-09-21 08:10:00"
+    },
+    {
+      "issueID": 60,
+      "title": "Live Value 삭제 ID = 425",
+      "category": 5,
+      "status": 1,
+      "start": "2023-09-22 08:00:00",
+      "end": "2023-09-22 08:00:00"
+    },
+    {
+      "issueID": 61,
+      "title": "DJMAX RESPECT V 콜라보",
+      "category": 4,
+      "status": 1,
+      "start": "2023-08-31",
+      "end": "2023-09-27"
+    },
+    {
+      "issueID": 62,
+      "title": "미나르 피크닉",
+      "category": 3,
+      "status": 1,
+      "start": "2023-09-21 10:00:00",
+      "end": "2023-10-25"
+    },
+    {
+      "issueID": 63,
+      "title": "보셨나요? 우리의 한글 사랑!",
+      "category": 3,
+      "status": 1,
+      "start": "2023-10-09 10:00:00",
+      "end": "2023-10-25"
+    },
+    {
+      "issueID": 64,
+      "title": "한 번 더! 하프링 꽃놀이 (필드혜택)",
+      "category": 3,
+      "status": 1,
+      "start": "2023-10-12 10:00:00",
+      "end": "2023-10-25"
+    },
+    {
+      "issueID": 65,
+      "title": "스카 리부트1/2 생성제한 확인",
+      "category": 6,
+      "status": 1,
+      "start": "2023-10-26",
+      "end": "2023-10-26"
+    },
+    {
+      "issueID": 66,
+      "title": "이용철 휴가",
+      "category": 7,
+      "status": 1,
+      "start": "2023-09-25",
+      "end": "2023-09-27"
+    }
+  ],
+  "colors": [
+    { "key": "Sat", "value": "sat" },
+    { "key": "Sun", "value": "sun" },
+    { "key": "Holiday", "value": "sun" }
+  ],
+  "holidayList": [
+    { "date": "2023-08-15", "type": "holiday", "label": "광복절" },
+    { "date": "2023-09-15", "type": "custom", "label": "메이플데이" },
+    { "date": "2023-09-22", "type": "custom", "label": "사용자 지정일" },
+    { "date": "2023-09-28", "type": "holiday", "label": "" },
+    { "date": "2023-09-29", "type": "holiday", "label": "추석" },
+    { "date": "2023-09-30", "type": "holiday", "label": "" },
+    { "date": "2023-10-03", "type": "holiday", "label": "개천절" },
+    { "date": "2023-10-09", "type": "holiday", "label": "한글날" }
+  ]
+}
