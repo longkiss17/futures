@@ -87,8 +87,8 @@ const emit = defineEmits(["title"]);
 emit("title", `Lab`, `이곳은 아이디어 기술검토를 위한 공간입니다.`);
 
 const configuration = new Configuration({
-  organization: "org-QP5qSvI6eqLhDmrO8udeW6mp",
-  apiKey: "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",
+  organization: "",
+  apiKey: "",
 });
 const openai = new OpenAIApi(configuration);
 
